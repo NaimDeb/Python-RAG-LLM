@@ -34,9 +34,11 @@ def main():
     ##Crée une option --query pour l'utiliser quand on crée
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", type=str, required=True)
+    parser.add_argument("--similarity", type=float, required=False)
     args = parser.parse_args()
 
     query_text = args.query
+    similarity = args.similarity or 0.7
 
     # --- On prépare la DB ---
 
@@ -53,7 +55,7 @@ def main():
     results = db.similarity_search_with_relevance_scores(query_text, k=3)
 
     # Failsafe au cas ou y'a 0 résultat ou que le score de similarité est inferieur a 0.7
-    if len(results) == 0 or results[0][1] < 0.7:
+    if len(results) == 0 or results[0][1] < similarity:
         print (f"Aucun résultat trouvé pour votre query")
         return
     
