@@ -8,10 +8,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_mistralai.embeddings import MistralAIEmbeddings
 import os
 import shutil
-from dotenv import load_dotenv
 
 
-load_dotenv()
 
 DATA_PATH = "data/books"
 CHROMA_PATH = "chroma"
