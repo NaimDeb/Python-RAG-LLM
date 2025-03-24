@@ -2,6 +2,8 @@
 
 Ce projet implémente un chatbot utilisant l'approche RAG (Retrieval Augmented Generation), qui enrichit les réponses du modèle avec des données contextuelles.
 
+Ce projet est basé sur [le tutoriel RAG](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami) de [pixegami](https://github.com/pixegami)
+
 ## Installation
 
 ```bash	
