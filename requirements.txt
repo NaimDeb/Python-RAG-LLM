@@ -1,11 +1,11 @@
 python-dotenv==1.0.1 # For reading environment variables stored in .env file
-langchain==0.2.2
-langchain-community==0.2.3
-langchain-mistralai==0.2.8 # For embeddings
-unstructured==0.14.4 # Document loading
+langchain-core>=0.3.45
+langchain>=0.2.2
+langchain-community>=0.2.3
+langchain-mistralai==0.2.8 # Mistral AI for embeddings and chatbot
+unstructured==0.16.24 # Document loading
 # For Windows users, install Microsoft Visual C++ Build Tools first
 # install onnxruntime before installing `chromadb`
 chromadb==0.5.0 # Vector storage
-tiktoken==0.7.0  # For embeddings 
 
-# install markdown depenendies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out. 
+# install markdown depenendencies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out. 
