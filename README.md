@@ -19,7 +19,7 @@ pip install -r requirements.txt
 - Python version 3.8 ou supérieure
 - Dépendances listées dans `requirements.txt`
 - Clé API Mistral AI disponible [ici](https://console.mistral.ai/api-keys) (compte requis)
-- Clé API Langchain disponible [ici](https://smith.langchain.com/) (compte requis)
+- Clé API Langsmith disponible [ici](https://smith.langchain.com/) (compte requis) (optionelle)
 
 ## Configuration
 
