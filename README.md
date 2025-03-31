@@ -27,7 +27,7 @@ pip install -r requirements.txt
 2. Configurez vos clés API dans le fichier `.env`.
 
 ## Utilisation
-1. Placez vos documents dans le dossier `data/`. Le programme n'accepte que les fichiers .txt.
+1. Placez vos documents dans le dossier `data/`. Le programme n'accepte que les fichiers .txt. (Vous pouvez aussi utiliser le livre d'Alice aux pays des merveilles donné dans ce repository dans data/books)
 
 2. Exécutez le script de création de la base de données :
 
